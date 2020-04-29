@@ -7,6 +7,7 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { LoginGuardGuard } from '../services/service.index';
+import { ProfileComponent } from './profile/profile.component';
 
 // ------------------------------------------------------
 // RUTAS QUE QUIERO PROTEGER
@@ -23,6 +24,7 @@ const pagesRoutes: Routes = [{
         {path: 'promesas', component: PromesasComponent, data:{ titulo: 'Promesas'}},
         {path: 'rxjs', component: RxjsComponent, data:{ titulo: 'RxJs'}},
         {path: 'account-settings', component: AccountSettingComponent, data:{ titulo: 'Ajustes del tema'}},
+        {path: 'perfil', component: ProfileComponent, data:{ titulo: 'Perfil de usuario'}},
         {path: '', redirectTo: '/dashboard', pathMatch: 'full'}
     ]
 }

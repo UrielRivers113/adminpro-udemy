@@ -28,7 +28,7 @@ import { RegisterComponent } from './login/register.component';
 ],
   imports: [
     BrowserModule,
-    APP_ROUTES,
+    APP_ROUTES, 
     PagesModule,
     FormsModule, 
     ReactiveFormsModule,
