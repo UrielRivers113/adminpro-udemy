@@ -4,9 +4,11 @@ import { CommonModule } from '@angular/common';
 import { SettingsService,
   SidebarService, 
   SharedService, 
-  UsuarioService, 
+  UsuarioService,
+  HospitalService, 
   LoginGuardGuard,
-  SubirArchivoService
+  SubirArchivoService,
+  MedicoService
  } from './service.index';
 
 import { HttpClientModule } from '@angular/common/http';
@@ -22,9 +24,11 @@ import { ModalUploadService } from '../components/modal-upload/modal-upload.serv
     SidebarService, 
     SharedService,
     UsuarioService,
+    HospitalService,
     LoginGuardGuard,
     SubirArchivoService,
-    ModalUploadService
+    ModalUploadService,
+    MedicoService
   ],
   declarations: []
 })
