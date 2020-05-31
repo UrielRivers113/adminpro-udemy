@@ -33,7 +33,7 @@ ModalUploadComponent
 
 @NgModule({
     declarations: [
-    PagesComponent,    
+    //PagesComponent,    
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
@@ -44,7 +44,7 @@ ModalUploadComponent
     RxjsComponent,
     ProfileComponent,
     UsuariosComponent,
-    ModalUploadComponent,
+    //ModalUploadComponent,
     HospitalesComponent,
     MedicosComponent,
     MedicoComponent,
